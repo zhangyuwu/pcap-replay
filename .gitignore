@@ -1,0 +1,46 @@
+syntax: glob
+
+# ignore .svn
+.svn
+.vs
+
+### VisualStudio ###
+
+# User-specific files
+*.db
+*.opendb
+*.obj
+*.gem
+*.exe
+*.laccdb
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+~$*.*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+build/
+bld/
+bin/
+ipch/
+.vs/
+
+[Oo]bj/
+msbuild.log
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+
+# Temp
+utmp
+
